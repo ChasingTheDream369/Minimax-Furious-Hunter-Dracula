@@ -63,9 +63,7 @@ void decideDraculaMove(DraculaView dv) {
 
 ## Hunter AI (hunter.c)
 
-```
-c
-
+```c
 // This code defines the decision-making process for the hunters in
 // the game. It considers factors like Dracula's movements and
 // health status.
@@ -85,9 +83,7 @@ void decideHunterMove(HunterView hv) {
 
 ## Dracula AI Example
 
-```
-c
-
+```c
 // If Dracula is on the first turn, analyze hunter movements and
 // choose a location far away and not easily reachable by hunters.
 
@@ -100,9 +96,7 @@ if (Curr_Location == NOWHERE) {
 
 ## Hunter AI Example
 
-```
-c
-
+```c
 // If the hunter is dead, send them to the hospital.
 
 if (HvGetHealth(hv, curr_player) <= 0) {
